@@ -31,7 +31,8 @@ class _MyProfileState extends State<MyProfile> {
           },
         ),
         title: const Center(
-          child: Text('My Profile'),
+          child: Text('My Profile', style: TextStyle(
+    color: Colors.white)),
         ),
         actions: [
           IconButton(
